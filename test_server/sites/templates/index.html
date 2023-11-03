@@ -16,6 +16,11 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap) -->
         <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+        <style>
+            *{
+                overflow: hidden;
+            }
+        </style>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -53,7 +58,7 @@
                     <div class="col-lg-8">
                         <h2 class="text-white mb-4">my github project</h2>  
                         <p class="text-white-50">
-                            다양한 깃허브 프로젝트 link
+                             깃허브 repositories
                         </p>
                     </div>
                 </div>
@@ -61,7 +66,7 @@
             </div>
         </section>
         <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
+        <section class="projects-section bg-light" id="projects" style="height: 910px;">
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
@@ -70,34 +75,6 @@
                         <div class="featured-text text-center text-lg-left">
                             <h4>Shoreline</h4>
                             <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project One Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="{% static 'assets/img/demo-image-01.jpg' %}"alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Misty</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="{% static 'assets/img/demo-image-02.jpg' %}"alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mountains</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well!</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
